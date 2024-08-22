@@ -1,0 +1,38 @@
+/* 
+Author: Jake Gomez 
+Date: 08/21/2024 
+File: styles.css
+*/
+
+body {
+  background-color: #f5f5dc;
+}
+
+.vertical {
+  background-color: #709ade;
+}
+
+.vertical ul li {
+  list-style: none;
+}
+
+.vertical li a {
+  text-decoration: none;
+}
+
+.row li a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  width: 125px;
+  padding: 50px;
+}
+
+.row {
+  background-color: #19002f;
+}
+
+footer {
+  background-color: #19002f;
+  color: white;
+}

@@ -1,0 +1,28 @@
+/* 
+Author: Jake Gomez 
+Date: 08/21/2024 
+File: reset.css
+*/
+
+* {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,65 @@
+/* 
+Author: Jake Gomez 
+Date: 08/21/2024 
+File: pricing.css
+*/
+
+table {
+  margin: 15px;
+}
+
+table,
+tr,
+td {
+  border: solid 1px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #c1c1d6;
+}
+
+th {
+  background-color: #19002f;
+  color: white;
+}
+
+aside {
+  background-color: #e3e399;
+  border: solid 5px;
+  border-radius: 10px;
+  width: 40%;
+  margin: 15px;
+  padding: 20px;
+}
+
+aside ul li {
+  list-style: initial;
+  padding: 7px;
+  margin: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  white-space: nowrap;
+  text-align: center;
+}
+
+td:nth-child(2) {
+  white-space: nowrap;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+/* 
+Author: Jake Gomez 
+Date: 08/21/2024 
+File: testimonials.css
+*/
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+aside {
+  margin-top: 20px;
+  color: #5413a8;
+}
+
+aside img {
+  display: block;
+  float: left;
+  grid-area: img;
+}
+
+aside p {
+  display: block;
+  grid-area: p;
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
+
+main aside p:nth-child(3) {
+  position: relative;
+  left: 50px;
+}
+
+main aside:first-child p:nth-child(3) {
+  left: 0;
+}

@@ -1,0 +1,33 @@
+/* 
+Author: Jake Gomez 
+Date: 08/21/2024 
+File: index.css
+*/
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "img1 img2 img3"
+    "img1 img4 img3";
+}
+
+main > section {
+  grid-area: img1;
+}
+
+main section:nth-child(2) {
+  grid-area: img2;
+}
+
+main section:nth-child(3) {
+  grid-area: img3;
+}
+
+main section:last-child {
+  grid-area: img4;
+}
+
+main section img {
+  max-height: 200px;
+}
